@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc05830c-c46e-4aff-a04e-39f7f2ea0fe3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/db/mysql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/db/oracle.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/db/postgresql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/db/sqlserver.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/GmallAdminMainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/annotation/SysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/aspect/RedisAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/aspect/SysLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/exception/RRException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/exception/RRExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/utils/ConfigConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/utils/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/utils/HttpContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/utils/IPUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/utils/MapUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/utils/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/utils/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/utils/RedisKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/utils/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/utils/ShiroUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/utils/SpringContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/validator/Assert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/validator/ValidatorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/validator/group/AddGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/validator/group/AliyunGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/validator/group/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/validator/group/QcloudGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/validator/group/QiniuGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/validator/group/UpdateGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/xss/HTMLFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/xss/SQLFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/xss/XssFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/xss/XssHttpServletRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/config/DemoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/config/FilterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/config/KaptchaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/datasource/properties/DataSourceProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/datasource/properties/DynamicDataSourceProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/app/annotation/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/app/annotation/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/app/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/app/controller/AppLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/app/controller/AppRegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/app/controller/AppTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/app/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/app/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/app/form/LoginForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/app/form/RegisterForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/app/interceptor/AuthorizationInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/app/resolver/LoginUserHandlerMethodArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/app/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/app/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/app/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/job/config/ScheduleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/job/controller/ScheduleJobController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/job/controller/ScheduleJobLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/job/dao/ScheduleJobDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/job/dao/ScheduleJobLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/job/entity/ScheduleJobEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/job/entity/ScheduleJobLogEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/job/service/ScheduleJobLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/job/service/ScheduleJobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/job/service/impl/ScheduleJobLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/job/service/impl/ScheduleJobServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/job/task/ITask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/job/task/TestTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/job/utils/ScheduleJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/job/utils/ScheduleUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/oss/cloud/AliyunCloudStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/oss/cloud/CloudStorageConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/oss/cloud/CloudStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/oss/cloud/OSSFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/oss/cloud/QcloudCloudStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/oss/cloud/QiniuCloudStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/oss/controller/SysOssController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/oss/dao/SysOssDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/oss/entity/SysOssEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/oss/service/SysOssService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/oss/service/impl/SysOssServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/controller/AbstractController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/controller/SysConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/controller/SysLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/controller/SysLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/controller/SysMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/controller/SysRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/controller/SysUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/dao/SysCaptchaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/dao/SysConfigDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/dao/SysLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/dao/SysMenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/dao/SysRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/dao/SysRoleMenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/dao/SysUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/dao/SysUserRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/dao/SysUserTokenDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/entity/SysCaptchaEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/entity/SysConfigEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/entity/SysLogEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/entity/SysMenuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/entity/SysRoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/entity/SysRoleMenuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/entity/SysUserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/entity/SysUserRoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/entity/SysUserTokenEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/form/PasswordForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/form/SysLoginForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/oauth2/OAuth2Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/oauth2/OAuth2Realm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/oauth2/OAuth2Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/oauth2/TokenGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/redis/SysConfigRedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/ShiroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/SysCaptchaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/SysConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/SysLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/SysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/SysRoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/SysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/SysUserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/SysUserTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/impl/ShiroServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/impl/SysCaptchaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/impl/SysConfigServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/impl/SysLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/sys/service/impl/SysUserTokenServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/mapper/app/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/mapper/job/ScheduleJobDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/mapper/job/ScheduleJobLogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/mapper/oss/SysOssDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/mapper/sys/SysConfigDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/mapper/sys/SysLogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/mapper/sys/SysMenuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/mapper/sys/SysRoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/mapper/sys/SysRoleMenuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/mapper/sys/SysUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/mapper/sys/SysUserRoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/mapper/sys/SysUserTokenDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/css/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/css/screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/css/typography.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/fonts/DroidSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/fonts/DroidSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/images/collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/images/expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/images/explorer_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/images/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/images/logo_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/images/pet_store_api.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/images/throbber.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/images/wordnik_api.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/index.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lang/translator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lib/backbone-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lib/es5-shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lib/handlebars-4.0.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lib/highlight.9.1.0.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lib/highlight.9.1.0.pack_extended.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lib/jquery-1.8.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lib/jquery.ba-bbq.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lib/jquery.slideto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lib/jquery.wiggle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lib/js-yaml.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lib/jsoneditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lib/lodash.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lib/marked.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lib/object-assign-pollyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lib/sanitize-html.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/lib/swagger-oauth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/o2c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/oauth2-redirect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/swagger-ui-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/swagger-ui-bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/swagger-ui-standalone-preset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/swagger-ui-standalone-preset.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/swagger-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/swagger-ui.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/swagger-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/swagger-ui.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/main/resources/static/swagger/swagger-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/test/java/atguigu/JwtTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-admin/src/test/java/atguigu/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-core/src/main/java/com/atguigu/core/bean/PageVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-core/src/main/java/com/atguigu/core/bean/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-core/src/main/java/com/atguigu/core/bean/QueryCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-core/src/main/java/com/atguigu/core/bean/Resp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-core/src/main/java/com/atguigu/core/exception/RRException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-core/src/main/java/com/atguigu/core/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-core/src/main/java/com/atguigu/core/utils/SQLFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/gmall-admin/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/gmall-core/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gmall-core/src/main/java/com/atguigu/core/bean/Resp.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="F:\server\apache-maven-3.2.2-bin\apache-maven-3.2.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
+    <option name="width" value="930" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gmall-sc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gamll-sc" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="F:/server/Git/Git/bin/git.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="GmallAdminMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.GmallAdminMainApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc05830c-c46e-4aff-a04e-39f7f2ea0fe3" name="Default" comment="" />
+      <created>1584849937844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584849937844</updated>
+      <workItem from="1584849940648" duration="961000" />
+      <workItem from="1584850922707" duration="672000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1633000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32952926" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16353887" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info id="Web" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gmall-admin/src/main/resources/mapper/app/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-admin/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1219" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/datasource/properties/DynamicDataSourceProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="29" column="75" lean-forward="true" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+          <folding>
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/datasource/properties/DataSourceProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/config/DemoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1057">
+          <folding>
+            <element signature="e#0#2611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/annotation/SysLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/app/interceptor/AuthorizationInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-369">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/common/aspect/SysLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1373">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-admin/src/main/java/com/atguigu/modules/app/resolver/LoginUserHandlerMethodArgumentResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-core/src/main/java/com/atguigu/core/bean/QueryCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-core/src/main/java/com/atguigu/core/bean/Resp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
