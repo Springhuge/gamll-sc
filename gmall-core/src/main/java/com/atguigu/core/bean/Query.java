@@ -1,8 +1,8 @@
 /**
  * Copyright (c) 2016-2019 谷粒开源 All rights reserved.
- *
+ * <p>
  * https://www.guli.cloud
- *
+ * <p>
  * 版权所有，侵权必究！
  */
 
@@ -26,16 +26,15 @@ public class Query<T> {
     }
 
 
-
     public IPage<T> getPage(QueryCondition params, String defaultOrderField, boolean isAsc) {
         //分页参数
         long curPage = 1;
         long limit = 10;
 
-        if(params.getPage() != null){
+        if (params.getPage() != null) {
             curPage = params.getPage();
         }
-        if(params.getLimit() != null){
+        if (params.getLimit() != null) {
             limit = params.getLimit();
         }
 
@@ -51,26 +50,23 @@ public class Query<T> {
         String order = params.getOrder();
 
         //前端字段排序
-        if(StringUtils.isNotEmpty(orderField) && StringUtils.isNotEmpty(order)){
-            if("asc".equalsIgnoreCase(order)) {
+        if (StringUtils.isNotEmpty(orderField) && StringUtils.isNotEmpty(order)) {
+            if ("asc".equalsIgnoreCase(order)) {
                 return page.setAsc(orderField);
-            }else {
+            } else {
                 return page.setDesc(orderField);
             }
         }
 
         //默认排序
-        if(isAsc) {
+        if (isAsc) {
             page.setAsc(defaultOrderField);
-        }else {
+        } else {
             page.setDesc(defaultOrderField);
         }
 
         return page;
     }
-
-
-
 
 
 }
